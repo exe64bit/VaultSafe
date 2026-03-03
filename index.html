@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaultSafe</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    
+    <div class="container">
+        <p id="headding" style="text-align: center; margin-bottom: 100px; font-size: xxx-large; font-weight: bold;">Wellcome to VaultSafe</p>
+        <div class="register">
+            <h1 style="padding: 20px;">Register</h1>
+            <input type="text" id="input-register-username" placeholder="Name">
+            <div class="input-btn">
+                <input type="password" id="input-register-password" placeholder="Password" style="margin: 0px;">
+                <button class="toggle-password-show-hide" data-show_hide="0" style="margin-left: 0px;">
+                    <img width="25px" class="toggle-password-show-hide-img" src="https://cdn-icons-png.flaticon.com/512/10898/10898993.png" alt="">
+                </button>
+            </div>
+            <input type="password" id="input-register-re-password" placeholder="Re-Enter Password">
+            <button id="register-btn">Register</button>
+        </div>
+
+
+
+        <div class="login">
+            <h1 style="padding: 20px;">Login</h1>
+            <div class="input-btn">
+                <input type="password" id="input-login-password" placeholder="Password">
+                <button class="toggle-password-show-hide" data-show_hide="0">
+                    <img width="25px" class="toggle-password-show-hide-img" src="https://cdn-icons-png.flaticon.com/512/10898/10898993.png" alt="">
+                </button>
+            </div>
+            <button id="login-btn">Login</button>
+        </div>
+
+
+
+
+        <div class="dashboard">
+            <div class="nav">
+                <input type="text" placeholder="Search">
+                <button id="dashboard-search">Search</button>
+            </div>
+            <div class="add-CP">
+                <button id="dashboard-add-iteam-btn">Add Iteam +</button>
+                <button id="dashboard-change-password-btn">Change Password</button>
+            </div>
+            <div class="iteams">
+                <div class="iteam">
+                    <p class="dashboard-iteam-name">Amazon</p>
+                    <div class="dashboard-btns">
+                        <button class="dashboard-btn-view" data-index_view="">View</button>
+                        <button class="dashboard-btn-edit" data-index_edit="">Edit</button>
+                        <button class="dashboard-btn-delete" data-index_delete="">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="add-iteams">
+            <input type="text" id="add-iteam-name" placeholder="Name">
+            <input type="text" id="add-iteam-username" placeholder="Username">
+            <input type="password" id="add-iteam-password" placeholder="Password">
+            <button class="toggle-password-show-hide" data-show_hide="0">
+                <img width="25px" class="toggle-password-show-hide-img" src="https://cdn-icons-png.flaticon.com/512/10898/10898993.png" alt="">
+            </button>
+            <input type="text" id="add-iteam-url" placeholder="App URL">
+            <button id="add-iteam-btn">ADD</button>
+        </div>
+
+
+
+
+        <div class="view">
+            <input type="text" id="view-iteam-name" placeholder="Name">
+            <input type="text" id="view-iteam-username" placeholder="Username">
+            <input type="password" id="view-iteam-password" placeholder="Password">
+            <button class="toggle-password-show-hide" data-show_hide="0">
+                <img width="25px" class="toggle-password-show-hide-img" src="https://cdn-icons-png.flaticon.com/512/10898/10898993.png" alt="">
+            </button>
+            <input type="text" id="view-iteam-url" placeholder="App URL">
+            <button id="view-close-btn">Close</button>
+        </div>
+
+
+
+        <div class="edit">
+            <input type="text" id="edit-iteam-name" placeholder="Name">
+            <input type="text" id="edit-iteam-username" placeholder="Username">
+            <input type="password" id="edit-iteam-password" placeholder="Password">
+            <button class="toggle-password-show-hide" data-show_hide="0">
+                <img width="25px" class="toggle-password-show-hide-img" src="https://cdn-icons-png.flaticon.com/512/10898/10898993.png" alt="">
+            </button>
+            <input type="text" id="edit-iteam-url" placeholder="App URL">
+            <button id="edit-done-btn">DONE</button>
+        </div>
+
+
+
+        <div class="delet-iteam">
+            <p>Are You Sure You want to Delete?</p>
+            <div>
+                <button id="delet-iteam-btn-yes">YES</button>
+                <button id="delet-iteam-btn-no">NO</button>
+            </div>
+        </div>
+
+
+        <div class="change-password">
+            <input type="password" id="input-change-password-password" placeholder="Password">
+            <button class="toggle-password-show-hide" data-show_hide="0">
+                <img width="25px" class="toggle-password-show-hide-img" src="https://cdn-icons-png.flaticon.com/512/10898/10898993.png" alt="">
+            </button>
+            <input type="password" id="input-change-password-re-password" placeholder="Re-Enter Password">
+            <button id="change-password-btn">Change Password</button>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
